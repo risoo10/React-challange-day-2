@@ -18,6 +18,16 @@ My challange consisted of:
 - REACT interactions, components, states
 
 ## Day 2 - (My)stagram 
-I got inspired by the simple Instagram app supported for web. I will build the home screen with images posted by as many friends as possible
+I got inspired by the simple Instagram app supported for web. I will build the home screen with posts, generated from the FAKE data stored in states locally.
+
+I Created:
+- Header Panel with search bar
+- Post component
+- Comments component
+
+## My final example:
+
+![](https://github.com/risoo10/React-challange-day-2/blob/master/final-examples/mystagram-small.jpg?raw=true)
+
 
 
