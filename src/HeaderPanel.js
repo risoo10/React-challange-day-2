@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import Container from './Layout';
+import {Container} from './Layout';
 import Icon from 'react-icons-kit'
 import {basic_compass} from 'react-icons-kit/linea/basic_compass'
 import {basic_heart} from 'react-icons-kit/linea/basic_heart'
@@ -10,18 +10,16 @@ import {arrows_circle_remove} from 'react-icons-kit/linea/arrows_circle_remove'
 
 
 const SearchWrapper = styled.div`
-  border-radius: 3px;
+  border-radius: ${props => props.theme.baseRadius};
   display: flex;
   justify-content: space-between;
   max-width: 250px;
   padding: 5px 10px;
-  border: 1px solid rgba(0,0,0,0.3);
+  border: ${props => props.theme.baseBorder};
 `
 
 const SearchInput = styled.input`
   width: 100%;
-  font-size: 14px;
-  color: rgba(0,0,0,0.5);
   border: 0px;
   margin-right: 0.5em;
 `
@@ -70,7 +68,7 @@ const HeaderWrapper = styled.div`
   width: 100%;
   background-color: white;
   padding: 5px 0;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: ${props => props.theme.baseBorder};
 `
 
 const Flex = styled.div`

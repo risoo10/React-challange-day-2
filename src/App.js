@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import HeaderPanel from './HeaderPanel';
+import PostsPanel from "./PostsPanel";
 
 class App extends Component {
   render() {
-    return (
-        <HeaderPanel></HeaderPanel>
-
-    );
+      return (
+          <div>
+              <HeaderPanel></HeaderPanel>
+              <PostsPanel></PostsPanel>
+          </div>
+      );
   }
 }
 
